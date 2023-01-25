@@ -1,0 +1,78 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "universidade limab",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "olá",
+            "como vai você",
+            "diga oi mundo",
+            "diga oi",
+            "oi",
+            "diga olá mundo",
+            "diga olá"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AulaIntent",
+          "slots": [
+            {
+              "name": "diaSemana",
+              "type": "AMAZON.FictionalCharacter"
+            }
+          ],
+          "samples": [
+            "quais sao as aulas de {diaSemana}",
+            "que aulas eu tive {diaSemana}",
+            "qual foi a aula de {diaSemana}",
+            "{diaSemana} que aulas tive",
+            "aulas de {diaSemana}"
+          ]
+        },
+        {
+          "name": "NotasIntent",
+          "slots": [],
+          "samples": [
+            "quais minhas notas",
+            "notas"
+          ]
+        },
+        {
+          "name": "HorarioCoordenadorIntent",
+          "slots": [],
+          "samples": [
+            "agenda coordenador",
+            "disponibilidade coordenador",
+            "agenda do coordenador",
+            "disponibilidade do coordenador",
+            "horário coordenador",
+            "coordenador horário",
+            "coordenador",
+            "horário do coordenador"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "9"
+}
